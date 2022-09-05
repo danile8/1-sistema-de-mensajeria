@@ -1,0 +1,59 @@
+.parent{
+    display:flex;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    width: 25% ;
+}
+.user{
+    display: flex; 
+}
+.status{
+    display:flex;
+}
+.status img{
+    height: auto;
+    width: 50px;
+    border-radius: 50%;
+}
+.menu img{
+    height: auto;
+    width: 30px;
+}
+.contact img{
+    height: auto;
+    width: 50px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+}
+.button{
+    display: flex; 
+    padding: 20px;
+}
+a{
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #A491D2; 
+    color: #E8EBE4; 
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+.main img{
+   height: 200px;
+}
